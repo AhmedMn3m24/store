@@ -1,0 +1,19 @@
+.example-carousel-image {
+    position: relative;
+    text-align: center;
+}
+
+.example-carousel-image img {
+    width: 100%;
+    height: auto;
+}
+
+.example-carousel-image .image-text {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Optional: for better text visibility */
+    padding: 5px;
+}
